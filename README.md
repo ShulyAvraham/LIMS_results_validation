@@ -17,6 +17,5 @@ An `.exe` file will be generated inside the `dist` directory.
 pytest -s
 ```
 
-
 # LIMS validation results
 A tool for checking an excel file against another file to validate output results of genetic data from LIMS.
