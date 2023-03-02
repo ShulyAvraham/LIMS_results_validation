@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
+from check_kraken_results import check_file
 
 VERSION = '20230204.1'
 
@@ -11,7 +12,7 @@ def run_process():
     filename = input_file.get()
     print(filename)
     
-    #iterate_root_dir(dirname)
+    check_file(filename)
 
     messagebox.showinfo(title = "LIMS results validation", message = "Results were validated.")
     
