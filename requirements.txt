@@ -1,2 +1,3 @@
 pyinstaller
 tkinter
+openpyxl
