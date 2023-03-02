@@ -1,12 +1,19 @@
-# Create a Windows executable python script
+
 
 * Use the Windows command prompt (cmd)
-* Installed python for windows from python.org
+* Install python for windows from python.org
 
 ### Run on Windows cmd:
 ```
 pip install -r requirements.txt
 ```
+
+To run the program
+```
+python validate_results.py
+```
+
+# Create a Windows executable python script
 ```
 pyinstaller --onefile --noconsole LIMS_results_validation.py
 ```
